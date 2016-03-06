@@ -1,0 +1,15 @@
+{
+  "title": "ForceLoadTabs",
+  "name": "forceloadtabs",
+  "version": "0.1.0",
+  "description": "Force a set of tabs to load at startup.",
+  "main": "index.js",
+  "author": "toff",
+  "engines": {
+    "firefox": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jetpack"
+  ]
+}
