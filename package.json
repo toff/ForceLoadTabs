@@ -1,10 +1,17 @@
 {
   "title": "ForceLoadTabs",
   "name": "forceloadtabs",
-  "version": "0.1.0",
-  "description": "Force a set of tabs to load at startup.",
+  "version": "0.2.0",
+  "description": "Force a set of tabs to load at startup without being pinned tabs.",
   "main": "index.js",
-  "author": "toff",
+  "author": "christophe.paris@gmail.com",
+  "preferences": [{
+        "type": "control",
+        "label": "Reset",
+        "name": "resetButton",
+        "title": "Reset forced tabs",
+        "description": "Reset all forced tabs."
+    }],
   "engines": {
     "firefox": ">=38.0a1"
   },
