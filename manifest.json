@@ -1,0 +1,34 @@
+{
+
+  "manifest_version": 2,
+  "name": "ForceLoadTabs",
+  "version": "0.4.0",
+  "author": "Toff",
+  "homepage_url": "https://github.com/toff/ForceLoadTabs",
+
+  "description": "Force a set of tabs to load at startup without being pinned tabs.",
+  
+  "background": {
+    "page": "background.html"
+  },
+
+  "options_ui.disabled": {
+    "page": "options.html",
+    "browser_style": true
+  },
+
+  "permissions": [
+    "menus",
+    "tabs",
+    "sessions"
+  ],
+
+  "applications": {
+    "gecko": {
+      "id": "forceloadtab@toff.github.io",
+      "strict_min_version": "60.0"
+    }
+  }
+
+}
+
